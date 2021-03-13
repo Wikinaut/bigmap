@@ -25,7 +25,7 @@ p.read('settings.ini')
 
 name = sys.argv[1] # section from ini
 
-source =  p.get(name,'source')
+tileserver =  p.get(name,'tileserver')
 zoom = p.getint(name,'zoom')
 
 if not os.path.exists( p.get(name,'dest')):
@@ -72,7 +72,7 @@ for idx,tile in enumerate(tiles):
     print('[%i/%i] %s' % (idx+1,len(tiles),fName), end=' ')
 
     if not os.path.exists(fName):
-        url = source.format(*tile)
+        url = tileserver.format(*tile)
 
         user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
         headers = {'User-Agent': user_agent}

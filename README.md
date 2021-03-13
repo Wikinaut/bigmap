@@ -3,7 +3,7 @@ The former project and script name was „mapCreator“.
 
 A script that downloads OSM tiles and stitches them to a single png map. Based on [osm_download](https://github.com/maxolasersquad/osm_download) script.
 
-Main source of tiles is the [osm-de](https://tile.openstreetmap.de) provider, but it can be changed to other tile servers in the ini file.
+Main server of tiles is the [osm-de](https://tile.openstreetmap.de) provider, but it can be changed to other tile servers in the ini file.
 
 ## How it works
 * The script gets its configuration from the *settings.ini* file.
@@ -13,7 +13,7 @@ Main source of tiles is the [osm-de](https://tile.openstreetmap.de) provider, bu
 
 ## Usage
 * configure map setting in ```settings.ini``` file:
-    * source : tile server url, with placeholders for x,y and zoom
+    * tileserver : tile server url, with placeholders for x,y and zoom
     * dest : destination directory on disk where the map will be saved
     * tilestore : local tilestore directory
     * zoom : zoom setting, more zoom=more tiles
