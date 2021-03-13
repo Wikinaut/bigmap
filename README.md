@@ -14,7 +14,7 @@ Main source of tiles is the [4umaps](http://www.4umaps.eu) provider, but it can 
     * dest : destination directory on disk where the map will be saved
     * tilestore : local tilestore directory
     * zoom : zoom setting, more zoom=more tiles
-    * bbox : bounding box of the map. Find bounding box parameters here: [Boundbox](ing box from https://boundingbox.klokantech.com/)
+    * bbox : bounding box of the map. Find bounding box parameters here: [Boundingbox](https://boundingbox.klokantech.com/)
 * run with  
 ```
  python bigmap.py map_name
