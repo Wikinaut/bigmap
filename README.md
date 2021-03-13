@@ -1,6 +1,7 @@
 # bigmap
 A script that downloads OSM tiles and stitches them to a single png map. Based on [osm_download](https://github.com/maxolasersquad/osm_download) script.
-Main source of tiles is the [4umaps](http://www.4umaps.eu) provider, but it can be changed to other tile servers in the ini file.
+
+Main source of tiles is the [osm-de](https://tile.openstreetmap.de) provider, but it can be changed to other tile servers in the ini file.
 
 ## How it works
 * The script gets its configuration from the *settings.ini* file.
