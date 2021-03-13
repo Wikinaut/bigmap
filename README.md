@@ -12,17 +12,10 @@ Main source of tiles is the [osm-de](https://tile.openstreetmap.de) provider, bu
 * The tiles are stitched to a single .png image and saved to the *dest* folder.
 
 ## Usage
-* configure map setting in the ini file:
+* configure map setting in ```settings.ini``` file:
     * source : tile server url, with placeholders for x,y and zoom
     * dest : destination directory on disk where the map will be saved
     * tilestore : local tilestore directory
     * zoom : zoom setting, more zoom=more tiles
     * bbox : bounding box of the map. Bounding box parameters can be found [here](https://boundingbox.klokantech.com/).
-* run with  
-```
- python bigmap.py map_name
-```    
-
-
-
-
+* run with ```python bigmap.py <mapname>```
