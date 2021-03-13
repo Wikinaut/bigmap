@@ -11,7 +11,7 @@ Main source of tiles is the [osm-de](https://tile.openstreetmap.de) provider, bu
 * The tiles are stored on disk to limit load on the server. Please avoid stressing the tile servers too much.
 * The tiles are stitched to a single .png image and saved to the *dest* folder.
 
-##Usage
+## Usage
 * configure map setting in the ini file:
     * source : tile server url, with placeholders for x,y and zoom
     * dest : destination directory on disk where the map will be saved
